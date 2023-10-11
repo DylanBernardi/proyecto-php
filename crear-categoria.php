@@ -5,7 +5,7 @@
 <div id=principal>
     <h1>Crear categorias</h1>
     <p>
-        Añade nuevas categorias para los usuarios
+        Añade nuevas categorias para los usuarios, para dar vida a la pagina
     </p>
     <br>
     <form action="guardar-categoria.php" method="POST">
