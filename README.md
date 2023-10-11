@@ -1,2 +1,2 @@
 # proyecto-php
-First web page made entirely with php
+First web page made with php
