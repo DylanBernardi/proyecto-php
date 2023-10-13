@@ -5,14 +5,17 @@
 <div id=principal>
     <h1>Crear categorias</h1>
     <p>
-        Añade nuevas entradas al blog para leer
+        Añade nuevas entradas al blogs para leer
     </p>
     <br>
     <form action="guardar-entrada.php" method="POST">
         <label for="titulo">Titulo:</label>
         <input type="text" name="titulo">
+        <?php echo isset($_SESSION['errores_entrada']) ? mostrarError($_SESSION['errores_entrada'], 'titulo') : '';  ?>
+
         <label for="descripcion">Descripcion:</label>
-        <input type="text-area" name="descripcion">
+        <textarea name="descripcion"></textarea>
+        <?php echo isset($_SESSION['errores_entrada']) ? mostrarError($_SESSION['errores_entrada'], 'descripcion') : '';  ?>
         <label for="categoria">Categoria</label>
         <select name="categoria">
             <?php $categorias = conseguirCategorias($db);
@@ -24,8 +27,10 @@
                 </option>
                 <?php endwhile ?>
         </select>
+        <?php echo isset($_SESSION['errores_entrada']) ? mostrarError($_SESSION['errores_entrada'], 'categoria') : '';  ?>
         <input type="submit" value="Guardar">
     </form>
+    <?php borrarErrores(); ?>
 </div>
 
 <?php require_once 'includes/pie.php';?>
