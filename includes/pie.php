@@ -1,9 +1,9 @@
   <div class="clearfix"></div>
-        </div>       
+  </div>
 
-<footer id="pie">
-            <p>Desarrollado por Dylan Bernardi &copy 2023</p>
-        </footer>
-    </body>
-</html>
+  <footer id="pie">
+      <p>Desarrollado por Dylan Bernardi &copy 2023</p>
+  </footer>
+  </body>
 
+  </html>
