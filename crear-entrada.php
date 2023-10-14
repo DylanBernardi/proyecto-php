@@ -3,7 +3,7 @@
 <?php require_once 'includes/lateral.php' ?>
 
 <div id=principal>
-    <h1>Crear categorias</h1>
+    <h1>Crear entradas</h1>
     <p>
         Añade nuevas entradas al blogs para leer
     </p>

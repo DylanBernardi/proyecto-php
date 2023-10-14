@@ -4,6 +4,7 @@
 
 <div id="principal">
     <h1>Mis datos</h1>
+    <p>Actualiza tus datos</p><br>
     <?php if (isset($_SESSION['completado'])) : ?>
         <div class="alerta alerta-exito">
             <?= $_SESSION['completado'] ?>

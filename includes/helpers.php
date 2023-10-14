@@ -73,5 +73,5 @@ function conseguirEntradas($conexion, $limit = null, $categoria = null)
     if ($entradas && mysqli_num_rows($entradas) >= 1) {
         $resultado = $entradas;
     }
-    return $entradas;
+    return $resultado;
 }
