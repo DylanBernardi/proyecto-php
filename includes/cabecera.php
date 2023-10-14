@@ -1,5 +1,5 @@
-<?php require_once 'conexion.php';   ?>
-<?php require_once 'helpers.php';     ?>
+<?php require_once 'conexion.php'; ?>
+<?php require_once 'helpers.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -42,5 +42,4 @@
         </nav>
         <div class="clearfix"></div>
     </header>
-
     <div id="contenedor">

@@ -3,11 +3,11 @@
 <aside id="sidebar">
     <?php if (isset($_SESSION['usuario'])) : ?>
         <div id="usuario-logueado" class="bloque">
-            <h3>Bienvenido <?= $_SESSION['usuario']['nombre'] . ' ' . $_SESSION['usuario']['apellidos']; ?></h3>
-            <a href="crear-entrada.php" class="boton"> Crear mis entradas </a>
-            <a href="crear-categoria.php" class="boton"> Crear categoria </a>
-            <a href="mis-datos.php" class="boton"> Mis datos </a>
-            <a href="cerrar.php" class="boton"> Cerrar sesion </a>
+            <h3>Bienvenido: <?= $_SESSION['usuario']['nombre'] . ' ' . $_SESSION['usuario']['apellidos']; ?></h3>
+            <a href="crear-entrada.php" class="boton" id="crear-entrada"> Crear mis entradas </a>
+            <a href="crear-categoria.php" class="boton" id="crear-categoria"> Crear categoria </a>
+            <a href="mis-datos.php" class="boton" id="mis-datos"> Mis datos </a>
+            <a href="cerrar.php" class="boton" id="cerrar"> Cerrar sesion </a>
         </div>
     <?php endif; ?>
     <?php if (!isset($_SESSION['usuario'])) : ?>
