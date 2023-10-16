@@ -43,9 +43,17 @@ body {
 }
 
 #logo {
-  float: left;
-  width: 540px;
-  height: 110px;
+  width: auto;
+  height: 100px;
+  display:inline;
+  position: relative;
+  bottom: 20px;
+}
+
+#logo-control{
+  position: relative;
+  width: 100px;
+  padding-top: 0px;
 }
 
 #logo a {
@@ -65,8 +73,9 @@ body {
 }
 
 #menu {
-  clear: both;
-  width: 102%;
+  position: relative;
+  top: -20px;
+  width: 102.5%;
   height: 45px;
   background: linear-gradient(to bottom, white 0px, rgb(245, 245, 245) 100%);
   border-radius: 10px;
@@ -105,18 +114,19 @@ body {
 }
 
 #sidebar {
-  float: right;
-  width: 27%;
+  position: absolute;
+  right: 70px;
+  display: block;
+  width: 25%;
   height: auto;
 }
 
 .bloque {
-  display: block;
+  position: relative;
+  top:-20px;
   width: 90%;
-  margin: 0px auto;
   margin-bottom: 35px;
   background: white;
-  padding: 10px;
   padding: 15px;
   box-shadow: 0px 0px 5px #ccc;
   border-radius: 10px;
@@ -161,7 +171,8 @@ input[type="submit"],
 }
 
 #principal {
-  float: left;
+  position: relative;
+  top:-20px;
   width: 65%;
   min-height: 550px;
   background: white;

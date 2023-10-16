@@ -11,6 +11,7 @@
 
 <body>
     <header id="cabecera">
+        <img src="./assets/img/control.jpg" id="logo-control">
         <div id="logo">
             <a href="index.php">
                 Blog de videojuegos
