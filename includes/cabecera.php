@@ -33,12 +33,6 @@
                 <?php
                     endwhile;
                 endif; ?>
-                <li>
-                    <a href="index.php">Sobre mi</a>
-                </li>
-                <li>
-                    <a href="index.php">Contacto</a>
-                </li>
             </ul>
         </nav>
         <div class="clearfix"></div>
